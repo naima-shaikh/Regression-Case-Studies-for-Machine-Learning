@@ -1,6 +1,6 @@
 ## Random Forest Regressor 
 
-# Hyperparameters to Tune:
+ Hyperparameters to Tune:
 - n_estimators: Number of trees in the forest.
 - max_depth: Maximum depth of individual trees.
 - min_samples_split: Minimum samples required to split an internal node.
@@ -11,7 +11,7 @@ Tuning Method: RandomizedSearchCV is generally preferred due to the larger hyper
 
 ## Decision Tree Regressor
 
-# Hyperparameters to Tune:
+ Hyperparameters to Tune:
 
 - max_depth: Limits tree depth.
 - min_samples_split: Minimum samples for splitting a node.
@@ -28,10 +28,10 @@ Tuning Method: GridSearchCV is suitable given the smaller hyperparameter space.
 
  ## Handling Multicollinearity in Linear Regression 
 
- # Detection:
+  Detection:
  - Correlation Matrix: Look for high correlation coefficients between independent variables.
 
-# Addressing (if detected):
+## Addressing (if detected):
 - Feature Removal: Remove highly correlated features.
 - Feature Combination: Create new features from correlated ones.
 - Regularization: Ridge or Lasso regression (though not explicitly requested, they handle multicollinearity).
