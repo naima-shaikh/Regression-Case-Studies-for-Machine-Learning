@@ -30,6 +30,7 @@ Tuning Method: GridSearchCV is suitable given the smaller hyperparameter space.
 
   Detection:
  - Correlation Matrix: Look for high correlation coefficients between independent variables.
+ - Variance Inflation Factor (VIF)
 
 ## Addressing (if detected):
 - Feature Removal: Remove highly correlated features.
