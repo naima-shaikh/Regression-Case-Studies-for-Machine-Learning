@@ -7,7 +7,7 @@
 - min_samples_leaf: Minimum samples required to be at a leaf node.
 - max_features: Number of features to consider for the best split.
 
-Tuning Method: RandomizedSearchCV is generally preferred due to the larger hyperparameter space.
+Tuning Method: RandomizedSearchCV is generally preferred due to the larger hyperparameter space, as it often finds a good combination faster than GridSearchCV.
 
 ## Decision Tree Regressor
 
