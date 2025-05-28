@@ -22,9 +22,9 @@ Tuning Method: GridSearchCV is suitable given the smaller hyperparameter space.
 
 ## Feature Selection-Based Modeling:
 
-1- Identify Top 5 Features: Use feature_importances_ from the tuned Random Forest.
-2- Retrain Models: Retrain Linear Regression, Decision Tree (optimized), and Random Forest (optimized) with only these top 5 features.
-3- Compare Results: Compare performance metrics (R-squared, MAE, RMSE) before and after feature selection.
+- Identify Top 5 Features: Use feature_importances_ from the tuned Random Forest.
+- Retrain Models: Retrain Linear Regression, Decision Tree (optimized), and Random Forest (optimized) with only these top 5 features.
+- Compare Results: Compare performance metrics (R-squared, MAE, RMSE) before and after feature selection.
 
  ## Handling Multicollinearity in Linear Regression 
 
