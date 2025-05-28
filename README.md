@@ -18,7 +18,7 @@ Tuning Method: RandomizedSearchCV is generally preferred due to the larger hyper
 - min_samples_leaf: Minimum samples at a leaf.
 - max_features: Features to consider for splitting.
 
-Tuning Method: GridSearchCV is suitable given the smaller hyperparameter space.
+Tuning Method: GridSearchCV is suitable given the smaller hyperparameter space , or when you want to ensure you find the absolute best combination within a defined range
 
 ## Feature Selection-Based Modeling:
 
